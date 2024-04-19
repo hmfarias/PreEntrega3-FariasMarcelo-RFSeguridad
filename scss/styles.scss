@@ -5,85 +5,10 @@
 
 //LAYOUTS OF THE SITE ----------------------------------------
 @import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
 //END LAYOUTS OF THE SITE ------------------------------------
 
-/* JUMBOTRON ----------------------------------------------------- */
-.jumbotron {
-	background-image: url(../assets/images/slide-02.jpg);
-	background-size: cover;
-	display: flex;
-	justify-content: flex-end;
-	align-items: end;
-}
-.jumbotron h1 {
-	color: #fbc500;
-	text-shadow: 0 0 5px #000;
-}
-.jumbotron p {
-	text-align: justify;
-}
-@media only screen and (max-width: 575px) {
-	.jumbotron h2 {
-		font-size: 20px;
-	}
-}
-/* END JUMBOTRON -------------------------------------------------- */
-
-/* FOOTER --------------------------------------------------------- */
-.logoFooterDiv {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-size: small;
-}
-
-.logo {
-	width: 77px;
-}
-.contactDiv {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-.contacto li {
-	display: flex;
-	align-items: baseline;
-}
-.contacto li i {
-	margin-right: 5px;
-}
-.contacto li p {
-	margin: 7px 0 0 0;
-}
-.redesSociales ul li {
-	list-style: none;
-	display: inline-block;
-	margin: 10px;
-}
-.socialLogo {
-	width: 25px;
-}
-.mapDiv {
-	border-style: outset;
-	height: 100%;
-}
-.copyLogo {
-	width: 15px;
-	margin-right: 3px;
-}
-.copyrightDiv p {
-	font-size: small;
-}
-/* END FOOTER ----------------------------------------------------- */
-
-/* QUIENES SOMOS -------------------------------------------------- */
-.aboutBanner {
-	background-image: url(../assets/images/slide-01.jpg);
-	background-size: cover;
-}
-
-.misVisVal {
-	max-width: fit-content;
-	max-height: 150px;
-}
-/* END QUIENES SOMOS -------------------------------------------------- */
+//PAGES OF THE SITE ------------------------------------------
+@import 'pages/aboutus';
+//END PAGES OF THE SITE --------------------------------------

@@ -1,38 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+//GENERAL BASES OF THE SITE ----------------------------------
+@import 'base/typography';
+@import 'base/base';
+// END GENERAL BASES OF THE SITE -----------------------------
 
-/* GENERAL --------------------------------------------------- */
-.justified {
-	text-align: justify;
-}
-/* END GENERAL --------------------------------------------------- */
+//LAYOUTS OF THE SITE ----------------------------------------
+@import 'layout/navigation';
+//END LAYOUTS OF THE SITE ------------------------------------
 
-/* NAVBAR ---------------------------------------------------- */
-/* LOGO ------------------------------------------------------ */
-.logo {
-	width: 50px;
-}
-@media only screen and (min-width: 576px) {
-	.logo {
-		width: 70px;
-	}
-}
-/* END LOGO ------------------------------------------------------ */
-
-.nav-link:hover {
-	color: #fbc500;
-	background-color: var(--color-primary-accent);
-}
-
-@media only screen and (max-width: 575px) {
-	.nav_ul-bg {
-		background-color: #646464;
-	}
-}
-/* END NAVBAR ------------------------------------------------------ */
-
-/* JUMBOTRON ------------------------------------------------------ */
+/* JUMBOTRON ----------------------------------------------------- */
 .jumbotron {
-	background-image: url(../resources/slide-02.jpg);
+	background-image: url(../assets/images/slide-02.jpg);
 	background-size: cover;
 	display: flex;
 	justify-content: flex-end;
@@ -101,7 +78,7 @@
 
 /* QUIENES SOMOS -------------------------------------------------- */
 .aboutBanner {
-	background-image: url(../resources/slide-01.jpg);
+	background-image: url(../assets/images/slide-01.jpg);
 	background-size: cover;
 }
 

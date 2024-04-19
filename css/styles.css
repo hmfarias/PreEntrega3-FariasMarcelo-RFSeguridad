@@ -34,12 +34,10 @@
   justify-content: flex-end;
   align-items: end;
 }
-
 .jumbotron h1 {
   color: #fbc500;
   text-shadow: 0 0 5px #000;
 }
-
 .jumbotron p {
   text-align: justify;
 }

@@ -5,17 +5,22 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: end;
+
+	h1 {
+		color: #fbc500;
+		text-shadow: 0 0 5px #000;
+	}
+
+	p {
+		text-align: justify;
+	}
 }
-.jumbotron h1 {
-	color: #fbc500;
-	text-shadow: 0 0 5px #000;
-}
-.jumbotron p {
-	text-align: justify;
-}
+
 @media only screen and (max-width: 575px) {
-	.jumbotron h2 {
-		font-size: 20px;
+	.jumbotron {
+		h2 {
+			font-size: 20px;
+		}
 	}
 }
 /* END JUMBOTRON -------------------------------------------------- */

@@ -14,20 +14,26 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
-.contacto li {
-	display: flex;
-	align-items: baseline;
+.contacto {
+	li {
+		display: flex;
+		align-items: baseline;
+		i {
+			margin-right: 5px;
+		}
+		p {
+			margin: 7px 0 0 0;
+		}
+	}
 }
-.contacto li i {
-	margin-right: 5px;
-}
-.contacto li p {
-	margin: 7px 0 0 0;
-}
-.redesSociales ul li {
-	list-style: none;
-	display: inline-block;
-	margin: 10px;
+.redesSociales {
+	ul {
+		li {
+			list-style: none;
+			display: inline-block;
+			margin: 10px;
+		}
+	}
 }
 .socialLogo {
 	width: 25px;
@@ -40,7 +46,9 @@
 	width: 15px;
 	margin-right: 3px;
 }
-.copyrightDiv p {
-	font-size: small;
+.copyrightDiv {
+	p {
+		font-size: small;
+	}
 }
 /* END FOOTER ----------------------------------------------------- */

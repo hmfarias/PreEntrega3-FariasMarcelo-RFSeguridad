@@ -211,5 +211,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.cotizaSection .logoWP i {
+  font-size: 80px;
+}
 
 /* END COTIZATION PAGE ---------------------------------------------------- *//*# sourceMappingURL=styles.css.map */

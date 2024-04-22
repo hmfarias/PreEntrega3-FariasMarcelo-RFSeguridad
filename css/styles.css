@@ -202,4 +202,14 @@
   max-height: 150px;
 }
 
-/* END ABOUT US -------------------------------------------------- *//*# sourceMappingURL=styles.css.map */
+/* END ABOUT US -------------------------------------------------- */
+/* START COTIZATION PAGE -------------------------------------------------- */
+.cotizaSection {
+  padding-top: 70px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* END COTIZATION PAGE ---------------------------------------------------- *//*# sourceMappingURL=styles.css.map */

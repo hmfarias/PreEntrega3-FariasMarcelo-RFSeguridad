@@ -1,3 +1,4 @@
+/*START ANIMATIONS ------------------------------------------- */
 /*START ANIMATED BUTTON -------------------------------------- */
 
 .btnAnimated {
@@ -19,9 +20,9 @@
 	/* ahora avanzo en la animación hasta el 70% */
 	70% {
 		/* con esto hago que el boton se haga de tamaño normal (1 es igual, 1.5 es un %0% mas grande, 0.5 es un 50% mas chico, etc etc) */
-		transform: scale(1.1);
+		transform: scale(1);
 		/* tambien agrego una pequeña sombra con transparencia  */
-		box-shadow: 0 0 0 7px rgba(250, 249, 249, 0.28);
+		box-shadow: 0 0 0 7px rgba(250, 249, 249, 0.2);
 	}
 
 	/* ahora configuro el final de la animacion */
@@ -44,45 +45,5 @@
 	}
 }
 /*END ANIMATED SLIDE ---------------------------------------- */
-.logosCustomers {
-	overflow: hidden;
-	padding: 20px 0;
-	white-space: nowrap;
-	position: relative;
-	.logosSlide {
-		display: inline-block;
-		animation: 20s slide infinite linear;
 
-		img {
-			height: 60px;
-			margin: 0 40px;
-		}
-	}
-}
-
-.logosCustomers::before,
-.logosCustomers::after {
-	position: absolute;
-	top: 0;
-	width: 250px;
-	height: 100%;
-	content: '';
-	z-index: 2;
-}
-
-.logosCustomers::before {
-	left: 0;
-	background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffc107);
-}
-.logosCustomers::after {
-	right: 0;
-	background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffc107);
-}
-
-.logosCustomers:hover .logosSlide {
-	animation-play-state: paused;
-}
-
-.customerSlide {
-	white-space: nowrap;
-}
+/*END ANIMATIONS -------------------------------------------- */

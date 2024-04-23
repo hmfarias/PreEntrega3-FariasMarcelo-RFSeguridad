@@ -98,6 +98,7 @@ main {
   }
 }
 /* END JUMBOTRON -------------------------------------------------- */
+/*START SLIDEBAR -----------------------------*/
 .logosCustomers {
   overflow: hidden;
   padding: 20px 0;
@@ -123,6 +124,7 @@ main {
   z-index: 2;
 }
 
+/*para generar un efecto disolución tanto al inicio como al final del slide*/
 .logosCustomers::before {
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffc107);
@@ -133,6 +135,7 @@ main {
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffc107);
 }
 
+/*para que la animación se detenga al posicionarse sobre alguna*/
 .logosCustomers:hover .logosSlide {
   animation-play-state: paused;
 }
@@ -141,6 +144,7 @@ main {
   white-space: nowrap;
 }
 
+/*END SLIDEBAR -----------------------------*/
 /* FOOTER --------------------------------------------------------- */
 .logoFooterDiv {
   display: flex;

@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   background-color: #d4cece;
   background-image: linear-gradient(180deg, #d4cece 0%, #c5c1c2 49%, #dedada 100%);
@@ -11,6 +15,8 @@ main {
 
 /*START ANIMATIONS ------------------------------------------- */
 /*START ANIMATED BUTTON -------------------------------------- */
+/* Variables use ----------------------------------------------*/
+/* End Variables use ----------------------------------------------*/
 .btnAnimated {
   /* creo la animación nombre=pulse dura 1.5s y se repite */
   animation: pulse 1.5s infinite;

@@ -1,0 +1,6 @@
+/* genera un efecto de escala al pasar el puntero del mouse */
+.securityArt:hover {
+	transition: all 0.9s;
+	transform: scale(1.1);
+}
+/* ---------------------------------------------------------*/

@@ -202,8 +202,10 @@ main {
 
 /* END FOOTER ----------------------------------------------------- */
 /* genera un efecto de escala al pasar el puntero del mouse */
-.securityArt:hover {
+.securityArt {
   transition: all 0.9s;
+}
+.securityArt:hover {
   transform: scale(1.1);
 }
 

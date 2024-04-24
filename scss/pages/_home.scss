@@ -1,6 +1,9 @@
 /* genera un efecto de escala al pasar el puntero del mouse */
-.securityArt:hover {
+
+.securityArt {
 	transition: all 0.9s;
-	transform: scale(1.1);
+	&:hover {
+		transform: scale(1.1);
+	}
 }
 /* ---------------------------------------------------------*/

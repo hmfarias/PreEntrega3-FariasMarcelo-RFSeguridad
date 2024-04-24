@@ -90,11 +90,11 @@ main {
   justify-content: flex-end;
   align-items: end;
 }
-.jumbotron h1 {
+.jumbotron .jumboText h1 {
   color: #fbc500;
   text-shadow: 0 0 5px #000;
 }
-.jumbotron p {
+.jumbotron .jumboText p {
   text-align: justify;
 }
 
@@ -223,6 +223,15 @@ main {
 }
 
 /* END ABOUT US -------------------------------------------------- */
+/* genera un efecto de escala al pasar el puntero del mouse */
+.securityServ {
+  transition: all 0.9s;
+}
+.securityServ:hover {
+  transform: scale(1.1);
+}
+
+/* ---------------------------------------------------------*/
 /* START COTIZATION PAGE -------------------------------------------------- */
 .cotizaSection {
   padding-top: 70px;

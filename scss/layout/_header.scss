@@ -5,14 +5,15 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: end;
+	.jumboText {
+		h1 {
+			color: #fbc500;
+			text-shadow: 0 0 5px #000;
+		}
 
-	h1 {
-		color: #fbc500;
-		text-shadow: 0 0 5px #000;
-	}
-
-	p {
-		text-align: justify;
+		p {
+			text-align: justify;
+		}
 	}
 }
 

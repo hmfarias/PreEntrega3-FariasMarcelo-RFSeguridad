@@ -65,9 +65,18 @@ main {
   width: 50px;
 }
 
+.navbar-brand {
+  padding-left: 0px;
+}
+
 @media only screen and (min-width: 576px) {
   .logo {
     width: 70px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar-brand {
+    padding-left: 30px;
   }
 }
 /* END LOGO ------------------------------------------------------ */

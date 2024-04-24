@@ -13,33 +13,33 @@
 			margin: 0 40px;
 		}
 	}
+	&::before,
+	&::after {
+		position: absolute;
+		top: 0;
+		width: 250px;
+		height: 100%;
+		content: '';
+		z-index: 2;
+	}
+	/*para generar un efecto disolución tanto al inicio como al final del slide*/
+	&::before {
+		left: 0;
+		background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffc107);
+	}
+	&::after {
+		right: 0;
+		background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffc107);
+	}
+	/*para que la animación se detenga al posicionarse sobre alguna*/
+	&:hover {
+		.logosSlide {
+			animation-play-state: paused;
+		}
+	}
 }
 
-.logosCustomers::before,
-.logosCustomers::after {
-	position: absolute;
-	top: 0;
-	width: 250px;
-	height: 100%;
-	content: '';
-	z-index: 2;
-}
-
-/*para generar un efecto disolución tanto al inicio como al final del slide*/
-.logosCustomers::before {
-	left: 0;
-	background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffc107);
-}
-.logosCustomers::after {
-	right: 0;
-	background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffc107);
-}
-
-/*para que la animación se detenga al posicionarse sobre alguna*/
-.logosCustomers:hover .logosSlide {
-	animation-play-state: paused;
-}
-
+/* para que no acomode los iconos en varios renglones*/
 .customerSlide {
 	white-space: nowrap;
 }

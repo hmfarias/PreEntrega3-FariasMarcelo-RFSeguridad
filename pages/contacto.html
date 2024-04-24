@@ -171,7 +171,7 @@
 								enctype="application/x-www-form-urlencoded"
 							>
 								<div class="mb-3 mt-3">
-									<label for="email" class="form-label">Nombre / Razón Social (*)</label>
+									<label for="nombre" class="form-label">Nombre / Razón Social (*)</label>
 									<input
 										type="text"
 										class="form-control"
@@ -182,7 +182,7 @@
 									/>
 								</div>
 								<div class="mb-3">
-									<label for="email" class="form-label">DNI / CUIT</label>
+									<label for="dni" class="form-label">DNI / CUIT</label>
 									<input
 										type="number"
 										class="form-control"
@@ -193,7 +193,7 @@
 									/>
 								</div>
 								<div class="mb-3">
-									<label for="email" class="form-label">Domicilio</label>
+									<label for="domicilio" class="form-label">Domicilio</label>
 									<input
 										type="text"
 										class="form-control"
@@ -203,7 +203,7 @@
 										required
 									/>
 								</div>
-								<label for="email" class="form-label">Teléfono</label>
+								<label for="telefono" class="form-label">Teléfono</label>
 								<input
 									type="text"
 									class="form-control"
@@ -222,13 +222,25 @@
 										name="email"
 									/>
 								</div>
-								<label for="comment">Comments:</label>
-								<textarea
-									class="form-control"
-									rows="5"
-									id="comment"
-									name="text"
-								></textarea>
+
+								<div class="mb-3">
+									<label for="comment">Comments:</label>
+									<textarea
+										class="form-control"
+										rows="5"
+										id="comment"
+										name="text"
+									></textarea>
+								</div>
+								<div class="mb-3">
+									<label for="adjuntarArchivo">Adjuntar Curriculum</label>
+									<input
+										class="form-control"
+										type="file"
+										id="adjuntarArchivo"
+										name="adjuntarArchivo"
+									/>
+								</div>
 								<button type="submit" class="btn btn-primary">Submit</button>
 							</form>
 						</div>

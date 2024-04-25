@@ -93,7 +93,7 @@ main {
 /* END NAVBAR ------------------------------------------------------ */
 /* JUMBOTRON ----------------------------------------------------- */
 .jumbotron {
-  background-image: url(../assets/images/slide-02.jpg);
+  background-image: url(../assets/images/slide-02.webp);
   background-size: cover;
   display: flex;
   justify-content: flex-end;
